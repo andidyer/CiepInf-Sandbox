@@ -8,12 +8,19 @@ This repository has the makings of a [Docker](https://www.docker.com/) image and
 
 Based on [this repository](https://github.com/ddevaraj/docker-brat) and [this repository](https://github.com/cassj/brat-docker).
 
+First, make sure the Docker daemon is active. This can be done by clicking the desktop app button so that the Docker GUI appears.
+
+Next, you need to build the image. Do this using the command below.
 ```
 docker build -t ciepinf-sandbox .
+```
+
+Finally, you can create and run the container. Do so using this command:
+```
 docker run --name brat-server -p 8080:80 -v "$(pwd)/shared:/usr/local/apache2/htdocs/brat/data/shared" -d ciepinf-sandbox
 ```
 
-The web interface is available at `http://127.0.0.1:8080/brat/`.
+The web interface is now available at `http://127.0.0.1:8080/brat/`.
 
 You can use `docker-machine ip default` to check your IP, which is required on Windows with Docker Toolbox.
 
