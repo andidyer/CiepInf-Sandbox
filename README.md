@@ -2,7 +2,7 @@
 
 This is a repository to allow annotators on the CiepInf project to practice annotating files using Brat locally, on their own localhost, before working on the live version.
 
-This repository has the makings of a [Docker](https://www.docker.com/) image and container to run the Brat webserver locally. This means that you do not have to install Brat locally. However, you do need to have Docker installed on your desktop.
+This repository has the makings of a [Docker](https://www.docker.com/) image and container to run the Brat webserver locally. This means that you do not have to install Brat locally. However, you do need to have Docker installed on your machine.
 
 ## BRAT Docker
 
