@@ -31,6 +31,12 @@ Using the above launch command, the `shared/` folder is shared with the containe
 
 `shared/Infstat/CiepInf/SandboxFiles` is where the annotation data is located. You will see folders for each language (currently only English). Select any of the files to start annotating.
 
+You will need to log in before making modifications.
+```
+Username: admin
+Password: password
+```
+
 ## Manually adding/modifying files
 
 You can add new folders and files for annotation within this directory, and they will appear for annotation in Brat when you next load it.
