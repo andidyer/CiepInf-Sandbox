@@ -1,0 +1,10 @@
+T1	Person 582 589	Kantaro
+T2	Person 636 638	he
+*	Identity T1 T2 T3
+A1	CorefType T1 coref
+A2	InfStat T1 given
+A3	CorefType T2 ana
+A4	InfStat T2 given
+T3	Person 572 579	Kantaro
+A5	CorefType T3 coref
+A6	InfStat T3 given

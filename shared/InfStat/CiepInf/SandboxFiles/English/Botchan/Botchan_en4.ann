@@ -1,0 +1,8 @@
+T1	Person 159 161	He
+A1	CorefType T1 ana
+A2	InfStat T1 given
+T2	Person 979 981	my
+A3	CorefType T2 ana
+A4	InfStat T2 given
+*	Identity T2 T1
+T3	Person 273 275	he
